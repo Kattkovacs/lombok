@@ -14,5 +14,6 @@ public class Teacher {
     @NonNull
     private String name;
     @Singular
+    @EqualsAndHashCode.Exclude
     private List<Student> students = new ArrayList<>();
 }
